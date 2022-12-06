@@ -1,10 +1,33 @@
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 15rem;
+    height: auto;
+    border-right:1px solid black;
+}
 .SideHome{
-
+    margin: 8px 0;
+    padding: 12px;
+    align-items: center;
+}
+.SideHome:hover{
+    background: #FAFAFA;
+    border-radius: 50px;
+}
+.side_text{
+    padding-left: 1rem;
 }
 .profile_image{
-
+    border-radius: 50%;
+    width: 20%;
 }
 .icon{
+    display:inline-block;
+    vertical-align:middle;
     width: 45px;
     height: 35px;
+}
+.setting{
+    align-content: flex-end;
 }
