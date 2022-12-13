@@ -1,33 +1,44 @@
+li{
+    list-style: none;
+}
 #sidebar{
     display: flex;
     flex-direction: column;
     padding: 12px;
     width: 15rem;
-    height: auto;
-    border-right:1px solid black;
+    height: 96.5vh;
+    border-right:1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 1);
+}
+.sidebar-menu{
+    margin-top: 20px;
+    height: 100%;
 }
 .SideHome{
+    display: flex;
+    align-items: center;
     margin: 8px 0;
     padding: 12px;
-    align-items: center;
 }
 .SideHome:hover{
     background: #FAFAFA;
     border-radius: 50px;
+    cursor: pointer;
+}
+li{
+    display: flex;
 }
 .side_text{
+    align-items: center;
     padding-left: 1rem;
 }
 .profile_image{
     border-radius: 50%;
-    width: 20%;
+    width: 12%;
 }
 .icon{
     display:inline-block;
     vertical-align:middle;
     width: 45px;
     height: 35px;
-}
-.setting{
-    align-content: flex-end;
 }
