@@ -5,7 +5,7 @@ li{
     display: flex;
     flex-direction: column;
     padding: 12px;
-    width: 15rem;
+    width: 13.5rem;
     height: 96.5vh;
     border-right:1px solid rgba(0, 0, 0, 0.15);
     background-color: rgba(255, 255, 255, 1);
