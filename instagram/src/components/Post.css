@@ -1,0 +1,25 @@
+.post-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.post-name-profile{
+    display: flex;
+}
+.post-img{
+    border-radius: 50%;
+    width: 10%;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, red 0%,  orange 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.post-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
