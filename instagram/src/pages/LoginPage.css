@@ -46,9 +46,14 @@ button{
 .bold{
     font-weight: bold;
 }
+.mr-2{
+    margin-right:2rem;
+}
+.relative{
+    position: relative;
+}
 .instagram-img{
     display: block;
-    background-size: 176px 186px;
     margin-top: 36px;
     margin-bottom: 12px;
     width: 174px;
@@ -58,11 +63,12 @@ button{
     border:1px solid rgba(219, 219, 219, 1);
     align-items: center;
     max-width: 350px;
-    height: 420px;
+    height: min-content;
     padding: 10px 0;
+    margin-bottom: 10px;
 }
 .login-container{
-    margin: 0px 40px;
+    margin: 24px 40px 0px;
 }
 .input{
     border-radius: 5px;
@@ -76,6 +82,55 @@ button{
     padding: 7px 16px;
     border: none;
     margin: 8px 0px;
+}
+.or{
+    margin: 0px 18px;
+    color: rgb(142, 142, 142);
+    font-size: .8125rem;
+}
+.line{
+    height: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    top:0.45em;
+    background-color: rgb(142, 142, 142);
+    display: block;
+}
+.line-margin{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.login_facebook{
+    font-weight: bold;
+    color: #385185;
+}
+.forget_pwd{
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    margin-top: 12px;
+    touch-action: manipulation;
+}
+.whole{
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 350px;
+}
+.whole-account{
+    max-width: 350px;
+    height: 45px;
+    border-radius: 1px;
+    border:1px solid rgba(219, 219, 219, 1);
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.outside-account{
+    font-size: 14px;
+}
+.account{
+    color: rgb(0, 149, 246);
+}
+.account-margin{
+    margin: 15px;
 }
 
 
