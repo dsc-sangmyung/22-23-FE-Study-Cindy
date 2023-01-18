@@ -37,7 +37,9 @@ function LoginPage(){
               <div className='mx-auto text-center outside-account'>
                 <div className='account-margin'>
                   <span>계정이 없으신가요?</span>
-                  <span className='account bold'>가입하기</span>
+                  <Link to={"./account"}>
+                    <span className='account bold'>가입하기</span>
+                  </Link>
                 </div>
               </div>
             </div>
