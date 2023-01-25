@@ -1,0 +1,40 @@
+.total_account{
+    color: rgb(38, 38, 38);
+    display: flex;
+    max-width: 350px;
+    margin-top: 12px;
+}
+.account-container{
+    margin: 0px 40px;
+}
+.account_box{
+    border:1px solid rgba(219, 219, 219, 1);
+    align-items: center;
+    max-width: 350px;
+    height: min-content;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.account_msg{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(142, 142, 142);
+    margin-bottom: 10px;
+}
+.account_facebook{
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 7px 16px;
+    background-color: #0095F6;
+    font-size: 14px;
+    color: #fff;
+}
+.facebook_logo{
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    color: #0095F6;
+    font-weight: 700;
+    margin-right: 8px;
+}
