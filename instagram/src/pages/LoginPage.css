@@ -28,6 +28,9 @@ button{
 .bg-blue{
     background-color: #4DB5F9;
 }
+.bg-blue-100{
+    background-color: #69B5FA;
+}
 .h-full{
     height: 100vh;
 }
@@ -91,7 +94,8 @@ button{
 }
 .or{
     margin: 0px 18px;
-    color: rgb(142, 142, 142);
+    color: #8E8E8E;
+    font-weight: bold;
     font-size: .8125rem;
 }
 .line{
@@ -99,7 +103,7 @@ button{
     flex-grow: 1;
     flex-shrink: 1;
     top:0.45em;
-    background-color: rgb(142, 142, 142);
+    background-color: #EDEDED;
     display: block;
 }
 .line-margin{
