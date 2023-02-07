@@ -9,7 +9,7 @@ function LoginPage(){
   return (
       <div className='bg-gray w-full h-full'>
         <div className='flex container'>
-          <div>
+          <div className='react-image'>
             <img src='https://static.cdninstagram.com/rsrc.php/v3/y4/r/ItTndlZM2n2.png'/>
           </div>
           <div className='flex flex-col whole'>
@@ -26,9 +26,9 @@ function LoginPage(){
                   <span className='or'>또는</span>
                   <div className='relative line'></div>
                 </div>
-                <div className='flex mx-auto'>
-                  <div>F</div>
-                  <div className='login_facebook'>Facebook으로 로그인</div>
+                <div className='flex account_facebook'>
+                  <span className='facebook_logo text-center'>f</span>
+                  <div className='text-center'>Facebook으로 로그인</div>
                 </div>
                 <div className='forget_pwd mx-auto'>
                   비밀번호를 잊으셨나요?
