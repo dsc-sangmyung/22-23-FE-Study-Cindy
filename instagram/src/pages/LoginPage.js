@@ -17,7 +17,7 @@ function LoginPage(){
               <img className='mx-auto instagram-img' src={require('../assets/img/Instagram.png')}/>
               <div className='flex flex-col login-container'>
                 <input className='border bg-gray input' id='email' type='text' placeholder='전화번호, 사용자 이름또는 이메일'/>
-                <input className='border bg-gray input' id='password' type='text' placeholder='비밀번호'/>
+                <input className='border bg-gray input' id='password' type='password' placeholder='비밀번호'/>
                 <div onClick={login} className='text-center bg-blue login-btn'>
                   <button className='font-white bold'>로그인</button>
                 </div>
