@@ -2,6 +2,7 @@ import React from 'react';
 import './AccountPage.css';
 import Footer from '../components/Footer';
 import DownloadApp from "../components/DownloadApp";
+import Account from '../axios/account'
 import {Link} from "react-router-dom";
 
 function AccountPage (){
@@ -22,10 +23,10 @@ function AccountPage (){
                   <div className='relative line'></div>
               </div>
               <div className='flex flex-col'>
-                  <input className='border bg-gray input' type='text' placeholder='휴대폰 번호 또는 이메일 주소'/>
-                  <input className='border bg-gray input' type='text' placeholder='성명'/>
-                  <input className='border bg-gray input' type='text' placeholder='사용자 이름'/>
-                  <input className='border bg-gray input' type='password' placeholder='비밀번호'/>
+                  <input className='border bg-gray input' id='email' type='text' placeholder='휴대폰 번호 또는 이메일 주소'/>
+                  <input className='border bg-gray input' id='name' type='text' placeholder='성명'/>
+                  <input className='border bg-gray input' id='user_name' type='text' placeholder='사용자 이름'/>
+                  <input className='border bg-gray input' id='password' type='password' placeholder='비밀번호'/>
               </div>
               <div className='call-info'>
                   <span>
@@ -36,7 +37,7 @@ function AccountPage (){
                   </a>
               </div>
               <div className='bg-blue-100 round-lg account-ac w-full mx-auto'>
-                  <div className='bold font-white text-center account-text'>가입</div>
+                  <div onClick={Account} className='bold font-white text-center account-text'>가입</div>
               </div>
           </div>
         </div>
