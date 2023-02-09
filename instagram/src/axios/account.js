@@ -5,14 +5,14 @@ function account(){
     const user_name = document.getElementById('user_name').value;
     const password = document.getElementById('password').value;
 
-    console.log(email)
-    console.log(password)
     axios({
-        method:"POST",
-        url:'https://reqres.in/api/register',
-        data:{
-            'email':email,
-            'password':password
+        method:"GET",
+        url:'/api/account',
+        params:{
+            name,
+            email,
+            user_name,
+            password
         },
     }).then((res)=>{
         console.log(res)
