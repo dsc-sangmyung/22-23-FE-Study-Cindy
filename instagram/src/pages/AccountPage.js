@@ -37,8 +37,9 @@ function AccountPage (){
                   </a>
               </div>
               <div className='bg-blue-100 round-lg account-ac w-full mx-auto'>
-                  <div onClick={Account} className='bold font-white text-center account-text'>가입</div>
+                  <div onClick={Account} className='bold font-white text-center account-text cursor'>가입</div>
               </div>
+              <div id='error_msg'></div>
           </div>
         </div>
           <div className='flex bg-white w-full whole-account'>

@@ -57,3 +57,12 @@
 .account-more{
     color: rgb(38, 38, 38);
 }
+.mt-3{
+    margin-top: 1.5rem;
+}
+.font-red{
+    color: #EE4E5A;
+}
+.cursor{
+    cursor: pointer;
+}
