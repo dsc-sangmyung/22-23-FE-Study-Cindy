@@ -11,7 +11,7 @@ function account(){
     axios({
         method:"GET",
         url:'/api/account',
-        params:{
+        data:{
             name,
             email,
             user_name,

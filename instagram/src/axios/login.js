@@ -6,7 +6,7 @@ function Login(){
     axios({
         method:"GET",
         url:'api/insert',
-        params:{
+        data:{
             email,
             password
         }
