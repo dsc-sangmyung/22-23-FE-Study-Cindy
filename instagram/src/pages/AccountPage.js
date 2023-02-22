@@ -23,9 +23,9 @@ function AccountPage (){
                   <div className='relative line'></div>
               </div>
               <div className='flex flex-col'>
-                  <input className='border bg-gray input' id='email' type='text' placeholder='휴대폰 번호 또는 이메일 주소'/>
-                  <input className='border bg-gray input' id='name' type='text' placeholder='성명'/>
-                  <input className='border bg-gray input' id='user_name' type='text' placeholder='사용자 이름'/>
+                  <input className='border bg-gray input' id='emailOrPhone' type='text' placeholder='휴대폰 번호 또는 이메일 주소'/>
+                  <input className='border bg-gray input' id='user_name' type='text' placeholder='성명'/>
+                  <input className='border bg-gray input' id='nickname' type='text' placeholder='사용자 이름'/>
                   <input className='border bg-gray input' id='password' type='password' placeholder='비밀번호'/>
               </div>
               <div className='call-info'>

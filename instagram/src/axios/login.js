@@ -1,13 +1,13 @@
 import axios from 'axios'
 
 function Login(){
-    const email = document.getElementById('email').value;
+    const id = document.getElementById('id').value;
     const password = document.getElementById('password').value;
     axios({
-        method:"GET",
+        method:"POST",
         url:'api/insert',
         data:{
-            email,
+            id,
             password
         }
     }).then((res)=>{

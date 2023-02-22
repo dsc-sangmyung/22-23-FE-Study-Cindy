@@ -1,18 +1,18 @@
 import axios from "axios";
 function account(){
-    const email = document.getElementById('email').value;
-    const name = document.getElementById('name').value;
+    const emailOrPhone = document.getElementById('emailOrPhone').value;
     const user_name = document.getElementById('user_name').value;
+    const nickname = document.getElementById('nickname').value;
     const password = document.getElementById('password').value;
 
-    checkError(email,password)
+    checkError(emailOrPhone,password)
     axios({
-        method:"GET",
+        method:"POST",
         url:'/api/account',
         data:{
-            name,
-            email,
+            emailOrPhone,
             user_name,
+            nickname,
             password
         },
     }).then((res)=>{
@@ -23,11 +23,11 @@ function account(){
 
 }
 
-function checkError(email,password){
+function checkError(emailOrPhone,password){
     let error_msg = document.getElementById('error_msg');
     error_msg.innerHTML = '';
 
-    if (!checkID(email)) {
+    if (!checkID(emailOrPhone)) {
         error_msg.className += "font-red mt-3 text-center";
         error_msg.innerText = 'Enter a valid email address.';
         return;
@@ -40,11 +40,11 @@ function checkError(email,password){
     }
 }
 
-function checkID(email){
+function checkID(emailOrPhone){
     let reg_email =  /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
     let reg_number = /^01([0|1|6|7|8|9])-?([0-9]{3,4})-?([0-9]{4})$/
 
-    if(reg_email.test(email) || reg_number.test(email))
+    if(reg_email.test(emailOrPhone) || reg_number.test(emailOrPhone))
         return true;
     else
         return false;
