@@ -5,7 +5,7 @@ function SideBar(){
     return(
         <div id='sidebar'>
           <div className='instagram_logo'>
-            <img src={require('../assets/img/Instagram.png')}/>
+            {/*<img src={require('../assets/img/Instagram.png')}/>*/}
           </div>
           <div className='sidebar-menu'>
             <div className='SideHome'>
