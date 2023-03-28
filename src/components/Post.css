@@ -23,3 +23,12 @@
     align-items: center;
     font-weight: 500;
 }
+.justify-between{
+    justify-content: space-between;
+}
+.my-auto{
+    margin: 0 auto;
+}
+.p-2{
+    padding: 8px;
+}
