@@ -1,0 +1,26 @@
+.profile_header_image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.px-4{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.py-2{
+    padding: 8px 0;
+}
+.ml-3{
+    margin-left: 15px;
+}
+.fw-6{
+    font-weight: 600;
+}
+.align-center{
+    align-items: center;
+}
+@media (min-width: 736px) {
+    .profile_container{
+        padding: 30px 20px 0;
+    }
+}
