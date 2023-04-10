@@ -14,7 +14,8 @@
 
 .edit_content_left{
     border-right:1px solid #EDEDED;
-    width: 200px;
+    width: 190px;
+    padding-right: 30px;
 }
 
 .metatag{
@@ -61,6 +62,6 @@ a{
 
 @media (min-width: 736px) {
     .profile_edit_image{
-        margin: 2px 32px 0 32px;
+        margin: 2px 16px 0 32px;
     }
 }
